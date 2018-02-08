@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Request Catcher — record HTTP requests, webhooks, API calls</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/global.css" />
+    <script type="text/javascript" src="/static/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/static/root.js"></script>
+</head>
+<body>
+        <div id="content">
+          <h1>Request Catcher</h1>
+
+          <div id="explanation">
+              <h2>Debug web hooks, http clients, etc.</h2>
+
+              <div id="description">
+                  <p>Request Catcher will create a subdomain on which you can test an application. All requests sent to any endpoints on the subdomain are forwarded to you in real time.</p>
+              </div>
+          </div>
+
+          <div id="use-a-catcher">
+              <form id="new-catcher" action="#">
+                  <div id="url">http://<input type="text" id="subdomain" />.<span id="root-host">requestcatcher.com</span></div>
+                  <div id="go-row"><input type="submit" value="Get started" id="go" /></div>
+              </form>
+          </div>
+      </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55875288-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>

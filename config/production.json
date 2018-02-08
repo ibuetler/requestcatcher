@@ -1,0 +1,12 @@
+{
+  "port": 8000,
+  "host": "51.15.43.110",
+
+  "root_host": "requestcatcher.idocker.hacking-lab.com",
+
+  "database": {
+    "name": "requestcatcher_production",
+    "user": "requestcatcher",
+    "host": "db"
+  }
+}
